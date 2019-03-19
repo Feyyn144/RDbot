@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const cfg require('./index.json'); // a garder en version desktop
-const token = process.env.token; NTU3NjI5MTAzMTMwNDExMDYz.D3LLrQ.zcGEkm5pA77G4HW8xGd1bbVLV6o
+const token = process.env.token
 const prefix = ("?");
 
 bot.on('ready', function () {
